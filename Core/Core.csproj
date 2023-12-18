@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyName>CmccCloud.SDK.Core</AssemblyName>
+        <PackageId>CmccCloud.SDK.Core</PackageId>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+        <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+        <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+        <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+        <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+        <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+        <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+        <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+        <GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute>
+        <Authors>CmccCloud</Authors>
+        <Copyright>Copyright 2020 Cmcc Technologies Co., Ltd.</Copyright>
+        <Company>Cmcc Technologies Co., Ltd.</Company>
+        <Description>CmccCloud .net SDK</Description>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\LICENSE" Pack="true" PackagePath="" />
+        <PackageReference Include="BouncyCastle.Cryptography" Version="2.2.1" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.5" />
+        <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.5" />
+        <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="3.1.5" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.5" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.5" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+        <PackageReference Include="YamlDotNet" Version="13.3.1" />
+    </ItemGroup>
+</Project>
